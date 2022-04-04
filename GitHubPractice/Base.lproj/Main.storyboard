@@ -64,6 +64,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Divide"/>
+                                <connections>
+                                    <action selector="whenDivideButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sk8-fD-iJ9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpe-pY-4c2">
                                 <rect key="frame" x="226" y="300" width="75" height="31"/>
