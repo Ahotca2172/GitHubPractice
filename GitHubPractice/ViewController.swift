@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
     @IBOutlet weak var firstNumberTextField: UITextField!
     @IBOutlet weak var secondNumberTextField: UITextField!
     @IBOutlet weak var operationLabel: UILabel!
@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-
+    
     @IBAction func whenAddButtonPressed(_sender: UIButton) {
         
         let firstNumber = Int(firstNumberTextField.text!)
@@ -34,12 +34,20 @@ class ViewController: UIViewController {
         let answer = firstNumber! * secondNumber!
         answerLabel.text = "\(answer)"
     }
-
+    
     @IBAction func whenSubtractButtonPressed(_ sender: UIButton) {
         let firstNumber = Int(firstNumberTextField.text!)
         let secondNumber = Int(secondNumberTextField.text!)
         operationLabel.text = "-"
         let answer = firstNumber! - secondNumber!
+        answerLabel.text = "\(answer)"
+    }
+    
+    @IBAction func whenDivideButtonPressed(_ sender: UIButton) {
+        let firstNumber = Int(firstNumberTextField.text!)
+        let secondNumber = Int(secondNumberTextField.text!)
+        operationLabel.text = "/"
+        let answer = firstNumber! / secondNumber!
         answerLabel.text = "\(answer)"
     }
 }
