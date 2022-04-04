@@ -16,7 +16,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
     }
 
     @IBAction func whenAddButtonPressed(_sender: UIButton) {
@@ -25,6 +24,14 @@ class ViewController: UIViewController {
         let secondNumber = Int(secondNumberTextField.text!)
         operationLabel.text = "+"
         let answer = firstNumber! + secondNumber!
+        answerLabel.text = "\(answer)"
+    }
+    
+    @IBAction func whenMultiplyButtonPressed(_sender: UIButton) {
+        let firstNumber = Int(firstNumberTextField.text!)
+        let secondNumber = Int(secondNumberTextField.text!)
+        operationLabel.text = "x"
+        let answer = firstNumber! * secondNumber!
         answerLabel.text = "\(answer)"
     }
 
