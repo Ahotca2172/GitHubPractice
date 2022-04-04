@@ -27,7 +27,13 @@ class ViewController: UIViewController {
         answerLabel.text = "\(answer)"
     }
     
-   
+    @IBAction func whenMultiplyButtonPressed(_sender: UIButton) {
+        let firstNumber = Int(firstNumberTextField.text!)
+        let secondNumber = Int(secondNumberTextField.text!)
+        operationLabel.text = "x"
+        let answer = firstNumber! * secondNumber!
+        answerLabel.text = "\(answer)"
+    }
 
 }
 
