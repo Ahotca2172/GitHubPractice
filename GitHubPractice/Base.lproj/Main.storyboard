@@ -51,7 +51,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vfz-3A-Hws">
-                                <rect key="frame" x="29" y="300" width="50" height="31"/>
+                                <rect key="frame" x="29" y="300" width="58" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Add"/>
@@ -60,7 +60,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1TI-q6-4mV">
-                                <rect key="frame" x="328" y="300" width="65" height="31"/>
+                                <rect key="frame" x="319" y="300" width="74" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Divide"/>
@@ -68,22 +68,22 @@
                                     <action selector="whenDivideButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sk8-fD-iJ9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpe-pY-4c2">
-                                <rect key="frame" x="226" y="300" width="75" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Multiply"/>
-                                <connections>
-                                    <action selector="whenMultiplyButtonPressedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ll3-wO-rGf"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eI4-QZ-H2O">
-                                <rect key="frame" x="117" y="300" width="80" height="31"/>
+                                <rect key="frame" x="112" y="300" width="87" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Subtract"/>
                                 <connections>
                                     <action selector="whenSubtractButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ykW-fo-dVR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hpe-pY-4c2">
+                                <rect key="frame" x="219" y="300" width="85" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Multiply"/>
+                                <connections>
+                                    <action selector="whenMultiplyButtonPressedWith_sender:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ll3-wO-rGf"/>
                                 </connections>
                             </button>
                         </subviews>
